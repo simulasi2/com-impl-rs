@@ -7,7 +7,7 @@ authors = ["Gabriel Majeri <gabriel.majeri6@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-com-impl-macro = { path = "com-impl-macro" }
+com-impl-macro = { git = "https://github.com/simulasi2/com-impl-macro" }
 
 [dev-dependencies.winapi]
 version = "0.3"
